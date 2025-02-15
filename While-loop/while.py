@@ -15,9 +15,10 @@ while i < 6:
   i += 1
 
 print('\n')
-# Note: remember to increment i, or else the loop will continue forever.
+# Note: remember to increment i '(i + 1)', or else the loop will continue forever.
 #
-# The while loop requires relevant variables to be ready, in this example we need to define an indexing variable, i, which we set to 1.
+# The while loop requires relevant variables to be ready, in this example we need to define an indexing variable,
+# i, which we set to 1.
 #
 # The break Statement
 # With the break statement we can stop the loop even if the while condition is true:
@@ -31,6 +32,7 @@ while i < 6:
   if i == 3:
     break
   i += 1
+print('\n')
 
 
 # The continue Statement
@@ -44,9 +46,10 @@ while i < 6:
   i += 1
   if i == 3:
     continue
-  print(i)
+  print(i + 1)
 
 
+print('\n')
 # The else Statement
 # With the else statement we can run a block of code once when the condition no longer is true:
 #
