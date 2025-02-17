@@ -1,87 +1,87 @@
-# # 1. Print numbers from 1 to 10
-# # Task: Use a while loop to print numbers from 1 to 10.
-# from unicodedata import digit
-#
-# print("Task 1: Print numbers from 1 to 10")
-# i = 1
-# while i <= 10:
-#     print(i)
-#     i += 1
-#
-#
-#
-# # 2. Sum of the first 10 natural numbers
-# # Task: Calculate the sum of numbers from 1 to 10 using a while loop.
-#
-#
-# print("Task 2: Sum of the first 10 natural numbers")
-#
-# sum = 0
-# i = 1
-# while i <= 10:
-#     sum += i
-#     i += 1
-#
-# print("Sum:", sum)  # Replace ... with the result
-#
-#
-#
-# # 3. Print even numbers from 1 to 20
-# # Task: Use a while loop to print only even numbers from 1 to 20.
-#
-#
-# print("Task 3: Print even numbers from 1 to 20")
-# i = 2
-# while i <=20:
-#     print(i)
-#     i +=2
-#
-# # 4. Reverse countdown from 10 to 1
-# # Task: Print numbers in reverse order: 10, 9, ..., 1.
-# print("Task 4: Countdown from 10 to 1")
-# i = 10
-# while i >= 1:
-#     print(i)
-#     i -= 1
-#
-# # 5. Multiplication table (user input)
-# # Task: Ask the user for a number and print its multiplication table up to 10.
-#
-#
-# print("Task 5: Multiplication Table")
-# num = int(input("Enter a number: "))
-# i = 1
-# while i <= 10:
-#     print(f'{num} * {i} = {num * i}')
-#     i += 1
-#
-#
-#
-# # 6. "Guess the Number" game
-# # Task: The program picks a number, and the user keeps guessing until they get it right.
-#
-#
-#
-# print("Task 6: Guess the Number Game")
-# print("Task 6: Guess the Number Game")
-# import random
-# # Исправлено название переменной
-# secret_number = random.randint(1, 10)
-# attempts = 0
-#
-# while True:
-#     guess = int(input("Guess the number (1-10): "))
-#     attempts += 1
-#
-#     if guess < secret_number:
-#         print("Too low! Try again.")
-#     elif guess > secret_number:
-#         print("Too high! Try again.")
-#     else:
-#         print(f'Congratulations! You guessed the number in {attempts} attempts.')
-#         break
-#
-#
+# 1. Print numbers from 1 to 10
+# Task: Use a while loop to print numbers from 1 to 10.
+from unicodedata import digit
+
+print("Task 1: Print numbers from 1 to 10")
+i = 1
+while i <= 10:
+    print(i)
+    i += 1
+
+
+
+# 2. Sum of the first 10 natural numbers
+# Task: Calculate the sum of numbers from 1 to 10 using a while loop.
+
+
+print("Task 2: Sum of the first 10 natural numbers")
+
+sum = 0
+i = 1
+while i <= 10:
+    sum += i
+    i += 1
+
+print("Sum:", sum)  # Replace ... with the result
+
+
+
+# 3. Print even numbers from 1 to 20
+# Task: Use a while loop to print only even numbers from 1 to 20.
+
+
+print("Task 3: Print even numbers from 1 to 20")
+i = 2
+while i <=20:
+    print(i)
+    i +=2
+
+# 4. Reverse countdown from 10 to 1
+# Task: Print numbers in reverse order: 10, 9, ..., 1.
+print("Task 4: Countdown from 10 to 1")
+i = 10
+while i >= 1:
+    print(i)
+    i -= 1
+
+# 5. Multiplication table (user input)
+# Task: Ask the user for a number and print its multiplication table up to 10.
+
+
+print("Task 5: Multiplication Table")
+num = int(input("Enter a number: "))
+i = 1
+while i <= 10:
+    print(f'{num} * {i} = {num * i}')
+    i += 1
+
+
+
+# 6. "Guess the Number" game
+# Task: The program picks a number, and the user keeps guessing until they get it right.
+
+
+
+print("Task 6: Guess the Number Game")
+print("Task 6: Guess the Number Game")
+import random
+# Исправлено название переменной
+secret_number = random.randint(1, 10)
+attempts = 0
+
+while True:
+    guess = int(input("Guess the number (1-10): "))
+    attempts += 1
+
+    if guess < secret_number:
+        print("Too low! Try again.")
+    elif guess > secret_number:
+        print("Too high! Try again.")
+    else:
+        print(f'Congratulations! You guessed the number in {attempts} attempts.')
+        break
+
+
 
 
 
