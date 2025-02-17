@@ -3,6 +3,11 @@
 
 
 print("Task 1: Print numbers from 1 to 10")
+i = 1
+while i <= 10:
+    print(i)
+    i += 1
+
 
 
 # 2. Sum of the first 10 natural numbers
@@ -10,7 +15,15 @@ print("Task 1: Print numbers from 1 to 10")
 
 
 print("Task 2: Sum of the first 10 natural numbers")
-print("Sum:", ...)  # Replace ... with the result
+
+sum = 0
+i = 1
+while i <= 10:
+    sum += i
+    i += 1
+
+print("Sum:", sum)  # Replace ... with the result
+
 
 
 # 3. Print even numbers from 1 to 20
