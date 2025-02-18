@@ -102,7 +102,7 @@ while num > 0:
 
 # 8. Count the number of digits in a number
 # Task: Find out how many digits are in the number 98765.
-
+print('\n')
 
 print("Task 8: Count the number of digits")
 num = 98765
