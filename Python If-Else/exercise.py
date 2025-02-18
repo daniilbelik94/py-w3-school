@@ -70,19 +70,19 @@ from main import print_hi
 
 
 #
-# # 6. Check if a character is a vowel or consonant
-# # Task: Ask the user for a letter and determine whether it is a vowel or a consonant.
+# 6. Check if a character is a vowel or consonant
+# Task: Ask the user for a letter and determine whether it is a vowel or a consonant.
 
-# print("Task 6: Check if a character is a vowel or consonant")
-# char = input("Enter a letter: ").lower()
-#
-#
-# if char in 'aeiou':
-#     print(f'{char} is a vowel') # Vowel
-# elif char.isalpha() and len(char) == 1:
-#     print(f'{char} is a consonant')  # Consonant
-# else:
-#     print("Please enter a valid letter")
+print("Task 6: Check if a character is a vowel or consonant")
+char = input("Enter a letter: ").lower()
+
+
+if char in 'aeiou':
+    print(f'{char} is a vowel') # Vowel
+elif char.isalpha() and len(char) == 1:
+    print(f'{char} is a consonant')  # Consonant
+else:
+    print("Please enter a valid letter")
 
 # # 7. Check if a number is within a range (1-100)
 # # Task: Ask the user for a number and check if it falls within the range 1 to 100.
